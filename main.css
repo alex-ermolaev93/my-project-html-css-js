@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 
 }
 body {
-    font-family: sans-serif;
+    font-family:"Arial",sans-serif;
     background-color: #FFF;
     margin: 0 auto;
 
@@ -21,15 +21,15 @@ h3{
     
 
 }
-/* h3:hover{
-    /*text-align: center;*/
+ /* h3:hover{
+    text-align: center;
     display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed; 
 }
-} */
+  */
 div {
     
 }
@@ -41,31 +41,26 @@ div {
     align-items: center;
 } */
 .answer {
-    padding: 10px;
-    height: 150px;
-    border: 1px;
-    position: relative;
-    background: #e7e6d4;
+    padding : 10px;
+    height: auto;
+    border: 5px;
+    position: relative; 
+    background: #7fb8dd;
     text-align: left;
-    border: 3px dashed #645a4e
+    border: 0.1px dashed black;
+    /* opacity: 0.5; */
   } 
 p {
     color:black;
-    font-weight: bold;
+    font-family: 'Germania One', cursive;
 
 }
-.questions{
-    padding-left: 30px ;
-    background: rgb(255, 255, 255);
-    color: #FFF;
-    border: 2px solid greenyellow;
-    margin: 10px;
-    display: inline-block;
-    height: auto;
-    width: auto;
-    /* position: fixed;  */
-    align-items: flex-start;
+li {
+    
+}
+.all{
 
+    
 }
 .header {
     text-align: center;
@@ -76,11 +71,35 @@ p {
     z-index: 10;
 
 }
+.questions{
+    padding-left: 30px ;
+    background: rgb(255, 255, 255);
+    color: #FFF;
+    border: 2px solid greenyellow;
+    margin: 40px auto;
+    padding: 2 30px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: relative;
+    align-items: flex-start;
+    z-index:9;
+    opacity: 0.5;
+    position: fixed;
 
-.all{
-    
+
 }
-.text{
+.textContainer{
+    padding: 50px 10px 10px 400px;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+      flex-direction: column;
+      align-items:stretch;
+
+}
+.myOption {
+    background: #FFF;
 
 }
 .blockElements {
