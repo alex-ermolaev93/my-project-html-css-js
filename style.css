@@ -1,0 +1,102 @@
+*,*:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+body {
+    font-family:"Arial",sans-serif;
+    margin: 0 ;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    background-color: #b7e8fc;
+    border-bottom: 1px solid #c6f4ff;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.8;
+    justify-content: center;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    min-height: 600px;
+    background: url(https://images.wallpapersden.com/image/wxl-air-gear-girl-graphic_7427.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+.mainOverlay{
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+
+}
+h3{
+    text-align: center;
+    
+
+}
+div {
+
+}
+.article {
+    padding : 10px;
+    padding-bottom: 20px;
+    height: auto;
+    border: 5px;
+    position: relative;
+    background: #ffffff;
+    text-align: left;
+    /* border: 0.03px dashed black;
+    opacity: 0.5;  */
+} 
+li {
+    list-style-type: none;
+}
+p {
+    color:black;
+    font-family: 'Germania One', cursive;
+}
+.questions{
+    padding-left: 30px ;
+    background: rgb(255, 255, 255);
+    color: #FFF;
+    margin: 40px auto;
+    padding: 2 30px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: relative;
+    align-items: flex-start;
+    z-index:9;
+    opacity: 0.6;
+    position: fixed;
+}
+.textContainer{
+    padding: 50px 10px 10px 400px;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+      flex-direction: column;
+      align-items:stretch;
+      opacity: 0.8;
+}
+.myOption {
+    background: #FFF;
+
+}
+.line{
+    width: auto;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
